@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\BookController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,7 +13,7 @@ use App\Http\Controllers\BookController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/books', [BookController::class, 'index2']);
+
 
 
 Route::get('/', function () {
